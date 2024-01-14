@@ -1,6 +1,6 @@
 import './style.css'
 import './format.css'
-const rootlink = "http://api.weatherapi.com/v1/current.json?key=d58383b3c9dd4c2da05185443241101&q="
+const rootlink = "https://api.weatherapi.com/v1/current.json?key=d58383b3c9dd4c2da05185443241101&q="
 
 function fetchcity(){
   let x = document.querySelector('#bar').value
